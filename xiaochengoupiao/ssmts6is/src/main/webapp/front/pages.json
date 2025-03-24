@@ -1,0 +1,195 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+			,{
+		"path": "pages/xuesheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuesheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuesheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/wodechengchexinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/wodechengchexinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/wodechengchexinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/cheliangxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/cheliangxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/cheliangxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/zuoweiguanli/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zuoweiguanli/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zuoweiguanli/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/discusscheliangxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusscheliangxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusscheliangxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+					, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校车购票微信小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#996666",
+		"borderStyle": "black",
+		"backgroundColor": "#CC99CC",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+												,{
+				"pagePath": "pages/cheliangxinxi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "车辆信息"
+			}
+						
+						
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
